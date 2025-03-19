@@ -8,4 +8,32 @@ large devices -> min-width: 992px
 extra large devices -> min-width: 1200px
 */
 
+/* <weight>: Use a value from 100 to 900
+ <uniquifier>: Use a unique and descriptive class name
+
+.sour-gummy-<uniquifier> {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}*/
 @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color1: #ececec;
+    --color2: #252525;
+
+    --main-font: "Sour Gummy", sans-serif;
+    --font2: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: ;
+}

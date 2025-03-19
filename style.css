@@ -1,4 +1,11 @@
-@charset "utf-8"
+@charset "utf-8";
 
-/* @import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap'); */
+/*
+extra small devices -> max-width: 600px
+small devices -> min-width: 600px
+medium devices -> min-width: 768px
+large devices -> min-width: 992px
+extra large devices -> min-width: 1200px
+*/
 
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
